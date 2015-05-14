@@ -21,10 +21,10 @@ logging.basicConfig(filename='channel8.log', level=logging.INFO,
 
 # ------------------------ 需要改的地方 ------------------------
 # 8通道用户名密码
-username = "oglops@gmail.com"
-password = "fuckme@1123"
+username = "xxx@yyy.com"
+password = "zzz"
 # 用于接收通知的email
-notify_email = 'dmapo@qq.com'
+notify_email = 'abc@163.com'
 # 几小时检查一次
 check_interval = 12
 # 随机加减几小时
@@ -127,4 +127,4 @@ if __name__ == "__main__":
         if once:
             driver.close()
             break
-        time.sleep(sleep_hours*2)
+        time.sleep(sleep_hours*3600)
